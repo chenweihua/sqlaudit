@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*- 
+"""
+@version: ??
+@author: chenwh
+@license: Apache Licence 
+@contact: endoffight@gmail.com
+@site: 
+@software: PyCharm
+@file: api-views_urls.py
+@time: 18-11-2 上午6:05
+"""
+
+from rest_framework_bulk.routes import BulkRouter
+from .. import api
+
+
+app_name = "sqlaudits"
+
+router = BulkRouter()
+
+router.register(r'masterconfig', api.LzMasterConfigViewSet, 'masterconfig')
+
+urlpatterns =[
+
+]
+
+urlpatterns += router.urls
+
