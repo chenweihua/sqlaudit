@@ -14,7 +14,8 @@
 
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_bulk import BulkModelViewSet
-from ..serializers import LzMasterConfigSerializer, LzMasterUserSerializer
+from ..serializers import LzMasterConfigSerializer, LzMasterUserSerializer, LzMasterNetworkSerializer, \
+    LzMasterPrivilegeSerializer
 from ..models import MasterConfig, MasterUser,MasterPrivilege, MasterNetwork
 
 class LzMasterConfigViewSet(BulkModelViewSet):
@@ -32,4 +33,22 @@ class LzMasterUserViewSet(BulkModelViewSet):
     """
     queryset = MasterUser.objects.all()
     serializer_class = LzMasterUserSerializer
+    filter_fields = ('username', 'master_host', 'master_user')
+
+
+class LzMasterNetworkViewSet(BulkModelViewSet):
+    """
+    System user api set, for add,delete,update,list,retrieve resource
+    """
+    queryset = MasterNetwork.objects.all()
+    serializer_class = LzMasterNetworkSerializer
+    filter_fields = ('username', 'master_host', 'master_user')
+
+
+class LzMasterPrivilegeViewSet(BulkModelViewSet):
+    """
+    System user api set, for add,delete,update,list,retrieve resource
+    """
+    queryset = MasterPrivilege.objects.all()
+    serializer_class = LzMasterPrivilegeSerializer
     filter_fields = ('username', 'master_host', 'master_user')

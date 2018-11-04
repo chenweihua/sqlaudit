@@ -14,7 +14,7 @@
 
 from rest_framework import serializers
 from .models import MasterConfig, MasterUser, MasterPrivilege,MasterUerPrivilege,\
-    MasterUserSend,Workflow,SlaveConfig
+    MasterUserSend,Workflow,SlaveConfig, MasterNetwork
 
 
 
@@ -26,6 +26,16 @@ class LzMasterConfigSerializer(serializers.ModelSerializer):
     class Meta:
         model = MasterConfig
         fields = '__all__'
+
+class LzMasterNetworkSerializer(serializers.ModelSerializer):
+    """
+
+    """
+
+    class Meta:
+        model = MasterNetwork
+        fields = '__all__'
+
 
 
 class LzMasterUserSerializer(serializers.ModelSerializer):

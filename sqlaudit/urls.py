@@ -65,7 +65,7 @@ v1_api_patterns = [
     # path('audits/v1/', include('audits.urls.api_urls', namespace='api-audits')),
     # path('orgs/v1/', include('orgs.urls.api_urls', namespace='api-orgs')),
     path('common/v1/', include('common.urls.api_urls', namespace='api-common')),
-    path('sqlaudits/v1', include('sqlaudits.urls.api-urls', namespace='api-sqlaudits')),
+    path('sqlaudits/v1/', include('sqlaudits.urls.api-urls', namespace='api-sqlaudits')),
 ]
 
 app_view_patterns = [

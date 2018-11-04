@@ -13,7 +13,7 @@
 
 from django import forms
 from .utils import generate_random_password
-from .models import MasterConfig, MasterUser
+from .models import MasterConfig, MasterUser, MasterNetwork,MasterPrivilege
 from django.utils.translation import gettext_lazy as _
 
 class MasterConfigCreateUpdateForm(forms.ModelForm):
@@ -41,17 +41,50 @@ class MasterConfigCreateUpdateForm(forms.ModelForm):
         super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
-    # def save(self, commit=True):
-    #     # master_password = self.cleaned_data.get('master_password')
-    #     # master_port = self.cleaned_data.get('master_port')
-    #     # master_password = generate_random_password(32)
-    #     masterconfig = super().save(commit=commit)
-    #     # if master_password:
-    #     #     masterconfig.set_password(master_password)
-    #     #     masterconfig.save()
-    #
-    #     return masterconfig
 
+
+
+class MasterNetworkCreateUpdateForm(forms.ModelForm):
+
+
+    class Meta:
+        model = MasterNetwork
+        fields = [
+            'name', 'network_value'
+        ]
+        help_texts = {
+            'name': '* required',
+            'network_value': '* required',
+
+        }
+
+
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop("request", None)
+        super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
+
+
+
+
+
+class MasterPrivilegeCreateUpdateForm(forms.ModelForm):
+
+
+    class Meta:
+        model = MasterPrivilege
+        fields = [
+            'name', 'privilege'
+        ]
+        help_texts = {
+            'name': '* required',
+            'network_value': '* required',
+
+        }
+
+
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop("request", None)
+        super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
 
@@ -66,7 +99,7 @@ class MasterUserCreateUpdateForm(forms.ModelForm):
     class Meta:
         model = MasterUser
         fields = [
-            'master_config_id', 'name', 'clients_host'
+            'masterconfig', 'name', 'network'
         ]
         help_texts = {
             'master_config_id': '* required',

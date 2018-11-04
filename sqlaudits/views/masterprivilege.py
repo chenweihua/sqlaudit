@@ -7,7 +7,7 @@
 @contact: endoffight@gmail.com
 @site: 
 @software: PyCharm
-@file: masterconfig.py
+@file: masterprivilege.py
 @time: 18-11-1 上午4:53
 """
 
@@ -33,7 +33,7 @@ from django.views.generic.detail import DetailView
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth import logout as auth_logout
 from django.conf import  settings
-from ..models import MasterUser, MasterConfig
+from ..models import MasterPrivilege
 from .. import  forms
 from users.utils import AdminUserRequiredMixin, get_object_or_none
 from common.mixins import JSONResponseMixin
@@ -43,65 +43,65 @@ from common.const import create_success_msg, update_success_msg
 
 
 __all__ = [
-    'MasterUserListView', 'MasterUserCreateView', 'MasterUserUpdateView',
+    'MasterPrivilegeListView', 'MasterPrivilegeCreateView', 'MasterPrivilegeUpdateView',
 
 ]
 
 logger = get_logger(__name__)
 
 
-class MasterUserListView(AdminUserRequiredMixin, TemplateView):
-    template_name = 'sqlaudit/masteruser_list.html'
+class MasterPrivilegeListView(AdminUserRequiredMixin, TemplateView):
+    template_name = 'sqlaudit/masterprivilege_list.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context.update({
-            'app': 'Master Config',
-            'action': 'MasterUser list',
+            'app': 'Master Privilege',
+            'action': 'MasterPrivilege list',
         })
         return context
 
 
-class MasterUserCreateView(AdminUserRequiredMixin, SuccessMessageMixin, CreateView):
-    model = MasterUser
-    form_class = forms.MasterUserCreateUpdateForm
-    template_name = 'sqlaudit/masteruser_create_update.html'
-    success_url = reverse_lazy('sqlaudits:masteruser-list')
+class MasterPrivilegeCreateView(AdminUserRequiredMixin, SuccessMessageMixin, CreateView):
+    model = MasterPrivilege
+    form_class = forms.MasterPrivilegeCreateUpdateForm
+    template_name = 'sqlaudit/masterprivilege_create_update.html'
+    success_url = reverse_lazy('sqlaudits:masterprivilege-list')
     success_message = create_success_msg
+    print(success_message)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update({'app': _('Master Config'),
-                        'action': _('Create masterconfig'),
-                        'masterconfigs': MasterConfig.objects.all(),
-                        })
+        context.update({'app': _('Master Config'), 'action': _('Create masterprivilege')})
         return context
+    #
+    # def form_valid(self, form):
+    #     masterprivilege = form.save(commit=False)
+    #     masterprivilege.save()
+    #     return super().form_valid(form)
+    #
+    # def get_form_kwargs(self):
+    #     kwargs = super(MasterPrivilegeCreateView, self).get_form_kwargs()
+    #     data = {'request': self.request}
+    #     kwargs.update(data)
+    #     return kwargs
 
-    def form_valid(self, form):
-        masterconfig = form.save(commit=False)
-        masterconfig.save()
-        return super().form_valid(form)
 
-    def get_form_kwargs(self):
-        kwargs = super(MasterUserCreateView, self).get_form_kwargs()
-        data = {'request': self.request}
-        kwargs.update(data)
-        return kwargs
-
-
-class MasterUserUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, UpdateView):
-    model = MasterUser
-    form_class = forms.MasterUserCreateUpdateForm
-    template_name = 'sqlaudit/masteruser_create_update.html'
-    context_object_name = 'masteruser_object'
-    success_url = reverse_lazy('sqlaudits:masteruser-list')
+class MasterPrivilegeUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, UpdateView):
+    model = MasterPrivilege
+    form_class = forms.MasterPrivilegeCreateUpdateForm
+    template_name = 'sqlaudit/masterprivilege_create_update.html'
+    context_object_name = 'masterprivilege_object'
+    success_url = reverse_lazy('sqlaudits:masterprivilege-list')
     success_message = update_success_msg
 
     def get_context_data(self, **kwargs):
+        # check_rules, min_length = get_password_check_rules()
         context = {
-            'app': _('MasterUser'),
-            'action': _('Update MasterUser'),
-            'master_user': MasterConfig.objects.all(),
+            'app': _('MasterPrivilege'),
+            'action': _('Update MasterPrivilege'),
+            # 'password_check_rules': check_rules,
+            # 'min_length': min_length
         }
         kwargs.update(context)
         return super().get_context_data(**kwargs)
@@ -113,7 +113,7 @@ class MasterUserUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, UpdateVi
         return super().form_valid(form)
 
     def get_form_kwargs(self):
-        kwargs = super(MasterUserUpdateView, self).get_form_kwargs()
+        kwargs = super(MasterPrivilegeUpdateView, self).get_form_kwargs()
         data = {'request': self.request}
         kwargs.update(data)
         return kwargs

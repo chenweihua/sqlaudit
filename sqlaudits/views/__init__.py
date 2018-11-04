@@ -11,3 +11,6 @@
 @time: 18-10-31 上午5:00
 """
 from .masterconfig import *
+from .masteruser import *
+from .masternetwork import *
+from .masterprivilege import *

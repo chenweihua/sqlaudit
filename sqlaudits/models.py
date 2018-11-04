@@ -32,12 +32,14 @@ class MasterConfig(models.Model):
         self.master_password = pc.encrypt(self.master_password)
         super(MasterConfig, self).save(*args, **kwargs)
 
+
 class MasterUser(models.Model):
     id = models.AutoField(primary_key=True)
-    master_config_id = models.IntegerField(verbose_name='主库地址配置id')
+    masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
     name = models.CharField('登录主库的用户名', max_length=18)
     password = models.CharField('登录主库的密码', max_length=64)
-    clients_host = models.ManyToManyField('MasterNetwork')
+    network = models.ManyToManyField('MasterNetwork')
+    privileges = models.ManyToManyField('MasterPrivilege',through ='MasterUerPrivilege')
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
 
@@ -71,13 +73,13 @@ class MasterUser(models.Model):
 
 class MasterPrivilege(models.Model):
     id = models.AutoField(primary_key=True)
-    privilege_name = models.CharField('登录权',max_length=32)
+    name = models.CharField('登录权',max_length=32)
     privilege = models.CharField('登录权', max_length=255)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
 
     def __str__(self):
-        return self.privilege_name
+        return self.name
 
     class Meta:
         db_table = 'lz_master_privilage'
@@ -87,14 +89,14 @@ class MasterPrivilege(models.Model):
 
 class MasterNetwork(models.Model):
     id = models.AutoField(primary_key=True)
-
-    network_name = models.CharField('登录权',max_length=32)
+    name = models.CharField('登录权',max_length=32)
     network_value = models.CharField('登录权', max_length=255)
+    network_expression = models.CharField(max_length=32,null=False ,blank=False,default='localhost')
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
 
     def __str__(self):
-        return self.network_name+':'+self.network_value
+        return self.name
 
     class Meta:
         db_table = 'lz_master_network'
@@ -104,13 +106,13 @@ class MasterNetwork(models.Model):
 
 class MasterUerPrivilege(models.Model):
     id = models.AutoField(primary_key=True)
-    master_user_id = models.ForeignKey(MasterUser, blank=True, null=True,
-                                  verbose_name='主库地址配置id', on_delete=models.SET_NULL)
-    privilage_id = models.ForeignKey(MasterPrivilege, blank=True, null=True,
-                                  verbose_name='主库地址配置id', on_delete=models.SET_NULL)
+    masterprivilage = models.ForeignKey(MasterPrivilege, blank=True, null=True,
+                                  verbose_name='主库地址配置id', on_delete=models.CASCADE)
+    masteruser= models.ForeignKey(MasterUser, blank=True, null=True,
+                                  verbose_name='主库地址配置id', on_delete=models.CASCADE)
     schemas = models.CharField("主库",max_length=32)
     tables = models.TextField("主库")
-    is_grants = models.IntegerField('授权', default=1)
+    is_grants = models.IntegerField('授权', default=0)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
 
@@ -126,7 +128,8 @@ class MasterUerPrivilege(models.Model):
 
 class MasterUserSend(models.Model):
     id = models.AutoField(primary_key=True)
-    master_user_id = models.IntegerField(  verbose_name='用户id')
+    masteruser= models.ForeignKey(MasterUser, blank=True, null=True,
+                                  verbose_name='主库地址配置id', on_delete=models.CASCADE)
     email = models.CharField(max_length=64)
     name = models.CharField(max_length=64)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
@@ -167,7 +170,7 @@ class SlaveConfig(models.Model):
 # 存放各个SQL上线工单的详细内容，可定期归档或清理历史数据，也可通过alter table workflow row_format=compressed; 来进行压缩
 class Workflow(models.Model):
     id = models.AutoField(primary_key=True)
-    workflow_name = models.CharField('工单内容', max_length=50)
+    name = models.CharField('工单内容', max_length=50)
     engineer = models.CharField('发起人', max_length=50)
     review_man = models.CharField('审核人', max_length=50)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
@@ -186,7 +189,7 @@ class Workflow(models.Model):
     audit_remark = models.TextField('审核备注', null=True, blank=True)
 
     def __str__(self):
-        return self.workflow_name
+        return self.name
 
     class Meta:
         db_table = 'lz_workflow'
@@ -199,11 +202,13 @@ class Workflow(models.Model):
 
 # 工作流审核主表
 class WorkflowAudit(models.Model):
-    audit_id = models.AutoField(primary_key=True)
-    workflow_id = models.BigIntegerField('关联业务id')
+    id = models.AutoField(primary_key=True)
+    # Workflow_id = models.BigIntegerField('关联业务id')
+    workflow = models.ForeignKey(Workflow, blank=True, null=True,
+                                  verbose_name='主库地址配置id', on_delete=models.CASCADE)
     workflow_type = models.IntegerField('申请类型',
                                         choices=((1, '查询权限申请'),))
-    workflow_title = models.CharField('申请标题', max_length=50)
+    name = models.CharField('申请标题', max_length=50,default='', null=False,blank=False)
     workflow_remark = models.CharField('申请备注', default='', max_length=140)
     audit_users = models.CharField('审核人列表', max_length=255)
     current_audit_user = models.CharField('当前审核人', max_length=20)
@@ -214,20 +219,20 @@ class WorkflowAudit(models.Model):
     sys_time = models.DateTimeField('系统时间', auto_now=True)
 
     def __int__(self):
-        return self.audit_id
+        return self.name
 
     class Meta:
         db_table = 'lz_workflow_audit'
-        unique_together = ('workflow_id', 'workflow_type')
+        unique_together = ('workflow', 'workflow_type')
         verbose_name = u'工作流列表'
         verbose_name_plural = u'工作流列表'
 
 
 # 审批明细表
 class WorkflowAuditDetail(models.Model):
-    audit_detail_id = models.AutoField(primary_key=True)
-    audit_id = models.ForeignKey(WorkflowAudit, db_constraint=False, to_field='audit_id',blank=True, null=True,
-                                 db_column='audit_id', verbose_name='审核主表id', on_delete=models.SET_NULL)
+    id = models.AutoField(primary_key=True)
+    workauditflow = models.ForeignKey(WorkflowAudit,  verbose_name='审核主表id', blank=True, null=True,
+    on_delete=models.CASCADE)
     audit_user = models.CharField('审核人', max_length=20)
     audit_time = models.DateTimeField('审核时间')
     audit_status = models.IntegerField('审核状态', choices=((0, '待审核'), (1, '审核通过'), (2, '审核不通过'), (3, '审核取消')), )
@@ -235,7 +240,7 @@ class WorkflowAuditDetail(models.Model):
     sys_time = models.DateTimeField('系统时间', auto_now=True)
 
     def __int__(self):
-        return self.audit_detail_id
+        return self.id
 
     class Meta:
         db_table = 'lz_workflow_audit_detail'
@@ -245,14 +250,15 @@ class WorkflowAuditDetail(models.Model):
 
 # 审批配置表
 class WorkflowAuditSetting(models.Model):
-    audit_setting_id = models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=32, blank=False, null=False,default='')
     workflow_type = models.IntegerField('申请类型,', choices=((1, '查询权限申请'),), unique=True)
     audit_users = models.CharField('审核人，单人审核格式为：user1，多级审核格式为：user1,user2', max_length=255)
     create_time = models.DateTimeField(auto_now_add=True)
     sys_time = models.DateTimeField(auto_now=True)
 
     def __int__(self):
-        return self.audit_setting_id
+        return self.name
 
     class Meta:
         db_table = 'lz_workflow_audit_setting'
