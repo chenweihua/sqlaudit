@@ -54,7 +54,7 @@ class LzMasterPrivilegeViewSet(BulkModelViewSet):
     filter_fields = ('username', 'master_host', 'master_user')
 
 
-class LzMasterSchemageViewSet(BulkModelViewSet):
+class LzMasterSchemaViewSet(BulkModelViewSet):
     """
     System user api set, for add,delete,update,list,retrieve resource
     """
