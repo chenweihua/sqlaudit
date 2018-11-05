@@ -1,0 +1,1250 @@
+2018-11-03 21:30:11 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 21:30:11 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 21:30:13 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 21:30:13 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 21:30:47 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 21:30:47 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 21:30:49 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 21:30:49 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 21:30:55 [basehttp INFO] "GET / HTTP/1.1" 302 0
+2018-11-03 21:30:55 [basehttp INFO] "GET /users/login/?next=/ HTTP/1.1" 200 4188
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 114011
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 200 18130
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 200 3526
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 200 173145
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 200 7099
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 200 16774
+2018-11-03 21:30:56 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84251
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 200 16141
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 200 25349
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 34653
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 200 16275
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 200 1287123
+2018-11-03 21:30:56 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 21:31:04 [basehttp INFO] "POST /users/login/?next=/ HTTP/1.1" 302 0
+2018-11-03 21:31:05 [basehttp INFO] "GET /users/first-login/ HTTP/1.1" 200 16583
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/css/plugins/steps/jquery.steps.css HTTP/1.1" 200 6010
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 200 18125
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 200 11750
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 200 5216
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 200 4636
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 200 3984
+2018-11-03 21:31:05 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+2018-11-03 21:31:05 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 200 5877
+2018-11-03 21:31:15 [basehttp INFO] "GET /users/profile/ HTTP/1.1" 200 20437
+2018-11-03 21:31:15 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:18 [basehttp INFO] "GET /i18n/zh-hans/ HTTP/1.1" 302 0
+2018-11-03 21:31:18 [basehttp INFO] "GET /users/profile/ HTTP/1.1" 200 20437
+2018-11-03 21:31:18 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:23 [basehttp INFO] "GET /users/profile/ HTTP/1.1" 200 20437
+2018-11-03 21:31:23 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:27 [basehttp INFO] "GET /users/first-login/ HTTP/1.1" 200 16583
+2018-11-03 21:31:27 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:33 [basehttp INFO] "POST /users/first-login/ HTTP/1.1" 200 15984
+2018-11-03 21:31:33 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:35 [basehttp INFO] "POST /users/first-login/ HTTP/1.1" 200 16390
+2018-11-03 21:31:36 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:37 [basehttp INFO] "POST /users/first-login/ HTTP/1.1" 200 16134
+2018-11-03 21:31:38 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:41 [basehttp INFO] "POST /users/first-login/ HTTP/1.1" 200 9832
+2018-11-03 21:31:41 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:45 [basehttp INFO] "GET /users/first-login/ HTTP/1.1" 302 0
+2018-11-03 21:31:45 [basehttp INFO] "GET / HTTP/1.1" 200 24218
+2018-11-03 21:31:45 [basehttp INFO] "GET /static/js/plugins/echarts/echarts.js HTTP/1.1" 200 363230
+2018-11-03 21:31:46 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:46 [basehttp INFO] "GET /static/js/plugins/echarts/chart/line.js HTTP/1.1" 200 12928
+2018-11-03 21:31:46 [basehttp INFO] "GET /static/js/plugins/echarts/chart/pie.js HTTP/1.1" 200 12159
+2018-11-03 21:31:51 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21857
+2018-11-03 21:31:51 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 200 15196
+2018-11-03 21:31:51 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 200 75005
+2018-11-03 21:31:51 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 15248
+2018-11-03 21:31:51 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:31:51 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+2018-11-03 21:31:53 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12477
+2018-11-03 21:31:53 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 21:32:06 [log ERROR] Internal Server Error: /sqlaudits/masterconfig/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/auth/mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/messages/views.py", line 12, in form_valid
+    success_message = self.get_success_message(form.cleaned_data)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/messages/views.py", line 18, in get_success_message
+    return self.success_message % cleaned_data
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/utils/functional.py", line 149, in __mod__
+    return str(self) % rhs
+KeyError: 'name'
+2018-11-03 21:32:06 [basehttp ERROR] "POST /sqlaudits/masterconfig/create/ HTTP/1.1" 500 115512
+2018-11-03 21:32:06 [log WARNING] Not Found: /favicon.ico
+2018-11-03 21:32:06 [basehttp WARNING] "GET /favicon.ico HTTP/1.1" 404 3754
+2018-11-03 21:44:02 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 21:44:02 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 21:44:07 [log ERROR] Internal Server Error: /sqlaudits/masterconfig/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/auth/mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/messages/views.py", line 12, in form_valid
+    success_message = self.get_success_message(form.cleaned_data)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/messages/views.py", line 18, in get_success_message
+    return self.success_message % cleaned_data
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/utils/functional.py", line 149, in __mod__
+    return str(self) % rhs
+KeyError: 'name'
+2018-11-03 21:44:07 [basehttp ERROR] "POST /sqlaudits/masterconfig/create/ HTTP/1.1" 500 115512
+2018-11-03 22:01:47 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:01:47 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:03:30 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:03:30 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:03:32 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:03:32 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:04:40 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:04:40 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:04:42 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:04:42 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:04:47 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12453
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 304 0
+2018-11-03 22:04:47 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:04:48 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:04:55 [log ERROR] Internal Server Error: /sqlaudits/masterconfig/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.OperationalError: (1054, "Unknown column 'lz_master_config.name' in 'where clause'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/contrib/auth/mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/forms/forms.py", line 185, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/forms/forms.py", line 180, in errors
+    self.full_clean()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/forms/forms.py", line 383, in full_clean
+    self._post_clean()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/forms/models.py", line 409, in _post_clean
+    self.validate_unique()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/forms/models.py", line 418, in validate_unique
+    self.instance.validate_unique(exclude=exclude)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/base.py", line 939, in validate_unique
+    errors = self._perform_unique_checks(unique_checks)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/base.py", line 1032, in _perform_unique_checks
+    if qs.exists():
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/query.py", line 715, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/sql/query.py", line 516, in has_results
+    return compiler.has_results()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1031, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'lz_master_config.name' in 'where clause'")
+2018-11-03 22:04:55 [basehttp ERROR] "POST /sqlaudits/masterconfig/create/ HTTP/1.1" 500 245555
+2018-11-03 22:05:21 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:05:21 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:05:36 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:05:36 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:05:47 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:05:47 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:05:59 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:05:59 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:06:06 [basehttp INFO] "POST /sqlaudits/masterconfig/create/ HTTP/1.1" 302 0
+2018-11-03 22:06:07 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 22110
+2018-11-03 22:06:07 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 0
+2018-11-03 22:06:07 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:06:07 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+2018-11-03 22:06:12 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21857
+2018-11-03 22:06:13 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:06:13 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:06:14 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12453
+2018-11-03 22:06:14 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:06:21 [basehttp INFO] "POST /sqlaudits/masterconfig/create/ HTTP/1.1" 302 0
+2018-11-03 22:06:21 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 22111
+2018-11-03 22:06:21 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:06:28 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21857
+2018-11-03 22:06:28 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:06:28 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:14:26 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2018-11-03 22:14:26 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+2018-11-03 22:14:26 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+2018-11-03 22:14:26 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 304 0
+2018-11-03 22:14:26 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+2018-11-03 22:14:27 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 304 0
+2018-11-03 22:14:27 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 304 0
+2018-11-03 22:14:27 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 304 0
+2018-11-03 22:14:27 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 304 0
+2018-11-03 22:14:27 [basehttp INFO] "GET /static/js/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 200 0
+2018-11-03 22:16:40 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:16:40 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:16:45 [basehttp INFO] "GET / HTTP/1.1" 200 24218
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/echarts/echarts.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/echarts/chart/line.js HTTP/1.1" 304 0
+2018-11-03 22:16:45 [basehttp INFO] "GET /static/js/plugins/echarts/chart/pie.js HTTP/1.1" 304 0
+2018-11-03 22:16:47 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21849
+2018-11-03 22:16:47 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:47 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 0
+2018-11-03 22:16:47 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:16:47 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+2018-11-03 22:17:03 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21849
+2018-11-03 22:17:04 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:17:04 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:17:11 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21849
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 114011
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 200 18130
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 200 16774
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 200 3526
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 200 173145
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 200 7099
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 200 15196
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84251
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 200 16141
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 200 75005
+2018-11-03 22:17:11 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 200 1287123
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 200 16275
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 34653
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 200 18125
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 200 3984
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 200 5216
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 200 25349
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 200 4636
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 15248
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 200 5877
+2018-11-03 22:17:12 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 200 11750
+2018-11-03 22:17:12 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+2018-11-03 22:18:08 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21849
+2018-11-03 22:18:09 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:18:09 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:24:30 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21223
+2018-11-03 22:24:30 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:24:31 [basehttp INFO] "GET /static/js/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 304 0
+2018-11-03 22:24:31 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:24:31 [log ERROR] Internal Server Error: /api/sqlaudits/v1masterconfig/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: cluster_name
+2018-11-03 22:24:31 [basehttp ERROR] "GET /api/sqlaudits/v1masterconfig/?_=1541255070782 HTTP/1.1" 500 22126
+2018-11-03 22:26:03 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:26:03 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:26:06 [signals_handler DEBUG] Receive django ready signal
+2018-11-03 22:26:06 [signals_handler DEBUG]   - fresh all settings
+2018-11-03 22:26:11 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21223
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 304 0
+2018-11-03 22:26:11 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:26:12 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+2018-11-03 22:26:12 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255171567 HTTP/1.1" 200 464
+2018-11-03 22:26:26 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21223
+2018-11-03 22:26:26 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:26:27 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:26:27 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255186945 HTTP/1.1" 200 464
+2018-11-03 22:26:45 [log WARNING] Not Found: /sqlaudits/masterconfig/999999999/update/
+2018-11-03 22:26:45 [basehttp WARNING] "GET /sqlaudits/masterconfig/999999999/update/ HTTP/1.1" 404 1834
+2018-11-03 22:26:45 [log WARNING] Not Found: /favicon.ico
+2018-11-03 22:26:45 [basehttp WARNING] "GET /favicon.ico HTTP/1.1" 404 3754
+2018-11-03 22:28:22 [log WARNING] Not Found: /sqlaudits/masterconfig/999999999/update/
+2018-11-03 22:28:22 [basehttp WARNING] "GET /sqlaudits/masterconfig/999999999/update/ HTTP/1.1" 404 1834
+2018-11-03 22:28:25 [log WARNING] Not Found: /sqlaudits/masterconfig/999999999/update/
+2018-11-03 22:28:25 [basehttp WARNING] "GET /sqlaudits/masterconfig/999999999/update/ HTTP/1.1" 404 1834
+2018-11-03 22:28:29 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255308501 HTTP/1.1" 200 464
+2018-11-03 22:28:33 [log WARNING] Not Found: /sqlaudits/masterconfig/999999999/update/
+2018-11-03 22:28:33 [basehttp WARNING] "GET /sqlaudits/masterconfig/999999999/update/ HTTP/1.1" 404 1834
+2018-11-03 22:28:37 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255316687 HTTP/1.1" 200 464
+2018-11-03 22:28:40 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21231
+2018-11-03 22:28:40 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:28:41 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:28:41 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255320879 HTTP/1.1" 200 464
+2018-11-03 22:28:43 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21231
+2018-11-03 22:28:43 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:28:43 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:28:43 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255323334 HTTP/1.1" 200 464
+2018-11-03 22:28:49 [basehttp INFO] "GET /sqlaudits/masterconfig/3/update/ HTTP/1.1" 200 12501
+2018-11-03 22:28:49 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:28:52 [basehttp INFO] "POST /sqlaudits/masterconfig/3/update/ HTTP/1.1" 302 0
+2018-11-03 22:28:52 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21484
+2018-11-03 22:28:52 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:28:53 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255332708 HTTP/1.1" 200 464
+2018-11-03 22:33:59 [basehttp INFO] "DELETE /api/users/v1/users/?id__in=[3] HTTP/1.1" 204 0
+2018-11-03 22:34:00 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255332709 HTTP/1.1" 200 464
+2018-11-03 22:34:07 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21231
+2018-11-03 22:34:07 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-03 22:34:08 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-03 22:34:08 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541255647347 HTTP/1.1" 200 464
+2018-11-04 11:14:17 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 11:14:17 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 11:14:21 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 11:14:21 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 11:15:37 [basehttp INFO] "GET / HTTP/1.1" 200 24433
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 304 0
+2018-11-04 11:15:38 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+2018-11-04 11:15:39 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/js/plugins/echarts/echarts.js HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/js/plugins/echarts/chart/line.js HTTP/1.1" 304 0
+2018-11-04 11:15:40 [basehttp INFO] "GET /static/js/plugins/echarts/chart/pie.js HTTP/1.1" 304 0
+2018-11-04 11:17:44 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21446
+2018-11-04 11:17:45 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 304 0
+2018-11-04 11:17:45 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 304 0
+2018-11-04 11:17:45 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 0
+2018-11-04 11:17:45 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:17:46 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+2018-11-04 11:17:46 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301465566 HTTP/1.1" 200 464
+2018-11-04 11:18:09 [basehttp INFO] "GET /static/js/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 304 0
+2018-11-04 11:19:29 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21363
+2018-11-04 11:19:30 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:19:31 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301569971 HTTP/1.1" 200 464
+2018-11-04 11:19:59 [basehttp INFO] "GET /sqlaudits/masterconfig/3/update/ HTTP/1.1" 200 12716
+2018-11-04 11:19:59 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:20:04 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301603121 HTTP/1.1" 200 464
+2018-11-04 11:22:46 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21363
+2018-11-04 11:22:47 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:22:47 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-04 11:22:47 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301767044 HTTP/1.1" 200 464
+2018-11-04 11:22:49 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21359
+2018-11-04 11:22:49 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:22:50 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301769915 HTTP/1.1" 200 464
+2018-11-04 11:22:53 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21359
+2018-11-04 11:22:53 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:22:53 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541301773331 HTTP/1.1" 200 464
+2018-11-04 11:35:06 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 11:35:06 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 11:35:09 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 11:35:09 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 11:37:09 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21434
+2018-11-04 11:37:09 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:37:11 [log ERROR] Internal Server Error: /api/sqlaudits/v1masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: username, master_host, master_user
+2018-11-04 11:37:11 [basehttp ERROR] "GET /api/sqlaudits/v1masteruser/?_=1541302629222 HTTP/1.1" 500 22160
+2018-11-04 11:37:26 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12668
+2018-11-04 11:37:26 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:37:39 [log ERROR] Internal Server Error: /api/sqlaudits/v1masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: username, master_host, master_user
+2018-11-04 11:37:39 [basehttp ERROR] "GET /api/sqlaudits/v1masteruser/?_=1541302659117 HTTP/1.1" 500 22160
+2018-11-04 11:51:27 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12668
+2018-11-04 11:51:27 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:51:35 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12668
+2018-11-04 11:51:35 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:51:35 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-04 11:51:38 [log ERROR] Internal Server Error: /api/sqlaudits/v1masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: username, master_host, master_user
+2018-11-04 11:51:38 [basehttp ERROR] "GET /api/sqlaudits/v1masteruser/?_=1541303498104 HTTP/1.1" 500 22160
+2018-11-04 11:51:41 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 12668
+2018-11-04 11:51:41 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:51:44 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21432
+2018-11-04 11:51:44 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 11:51:45 [log ERROR] Internal Server Error: /api/sqlaudits/v1masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: username, master_host, master_user
+2018-11-04 11:51:45 [basehttp ERROR] "GET /api/sqlaudits/v1masteruser/?_=1541303504871 HTTP/1.1" 500 22160
+2018-11-04 11:51:49 [log ERROR] Internal Server Error: /sqlaudits/masteruser/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/templatetags/bootstrap3.py", line 516, in bootstrap_field
+    return render_field(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/forms.py", line 69, in render_field
+    return renderer_cls(field, **kwargs).render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/renderers.py", line 248, in __init__
+    raise BootstrapError('Parameter "field" should contain a valid Django BoundField.')
+bootstrap3.exceptions.BootstrapError: Parameter "field" should contain a valid Django BoundField.
+2018-11-04 11:51:49 [basehttp ERROR] "GET /sqlaudits/masteruser/create/ HTTP/1.1" 500 174602
+2018-11-04 11:51:50 [log WARNING] Not Found: /favicon.ico
+2018-11-04 11:51:50 [basehttp WARNING] "GET /favicon.ico HTTP/1.1" 404 3754
+2018-11-04 12:02:48 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 12:02:48 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 12:02:51 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 12:02:51 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 12:07:47 [log ERROR] Internal Server Error: /sqlaudits/masteruser/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/templatetags/bootstrap3.py", line 516, in bootstrap_field
+    return render_field(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/forms.py", line 69, in render_field
+    return renderer_cls(field, **kwargs).render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/bootstrap3/renderers.py", line 248, in __init__
+    raise BootstrapError('Parameter "field" should contain a valid Django BoundField.')
+bootstrap3.exceptions.BootstrapError: Parameter "field" should contain a valid Django BoundField.
+2018-11-04 12:07:47 [basehttp ERROR] "GET /sqlaudits/masteruser/create/ HTTP/1.1" 500 174737
+2018-11-04 13:42:10 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 13:42:10 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 13:59:15 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 13:59:15 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 13:59:52 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 13:59:52 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 13:59:55 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 13:59:55 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:21:53 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:21:53 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:21:56 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:21:56 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:22:38 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:22:38 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:22:40 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:22:40 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:46:36 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:46:36 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:52:48 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:52:48 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:53:00 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:53:00 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 14:53:05 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 14:53:05 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:00:44 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:00:44 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:00:45 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:00:45 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:01:00 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:01:00 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:01:24 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:01:24 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:01:26 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:01:26 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:02:19 [log ERROR] Internal Server Error: /sqlaudits/masteruser/create/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'masterprivilege-list' not found. 'masterprivilege-list' is not a valid view function or pattern name.
+2018-11-04 15:02:19 [basehttp ERROR] "GET /sqlaudits/masteruser/create/ HTTP/1.1" 500 219615
+2018-11-04 15:02:22 [log ERROR] Internal Server Error: /api/sqlaudits/v1masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/rest_framework/generics.py", line 152, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 90, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 31, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django_filters/filterset.py", line 352, in get_filters
+    "%s" % ', '.join(undefined)
+TypeError: 'Meta.fields' contains fields that are not defined on this FilterSet: username, master_host, master_user
+2018-11-04 15:02:22 [basehttp ERROR] "GET /api/sqlaudits/v1masteruser/?_=1541314942274 HTTP/1.1" 500 22161
+2018-11-04 15:02:27 [log ERROR] Internal Server Error: /sqlaudits/masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'masterprivilege-list' not found. 'masterprivilege-list' is not a valid view function or pattern name.
+2018-11-04 15:02:27 [basehttp ERROR] "GET /sqlaudits/masteruser/ HTTP/1.1" 500 231897
+2018-11-04 15:06:51 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:06:51 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:06:55 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:06:55 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:07:24 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:07:24 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:07:26 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:07:26 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:07:32 [log ERROR] Internal Server Error: /sqlaudits/masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'master-list' not found. 'master-list' is not a valid view function or pattern name.
+2018-11-04 15:07:32 [basehttp ERROR] "GET /sqlaudits/masteruser/ HTTP/1.1" 500 195127
+2018-11-04 15:07:34 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 304 0
+2018-11-04 15:07:37 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 13126
+2018-11-04 15:07:37 [basehttp INFO] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+2018-11-04 15:07:37 [basehttp INFO] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2018-11-04 15:07:37 [basehttp INFO] "GET /static/css/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/plugins/sweetalert/sweetalert.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/plugins/vaildator/jquery.validator.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/plugins/select2/select2.min.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/plugins/datatables/datatables.min.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/jumpserver.css HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/plugins/datatables/datatables.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/plugins/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/img/logo-text.png HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/plugins/select2/select2.full.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/plugins/metisMenu/jquery.metisMenu.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/jumpserver.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/img/avatar/admin.png HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/img/header-profile.png HTTP/1.1" 304 0
+2018-11-04 15:07:38 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-04 15:07:44 [basehttp INFO] "GET /sqlaudits/masterprivilege/ HTTP/1.1" 200 21800
+2018-11-04 15:07:44 [basehttp INFO] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 0
+2018-11-04 15:07:44 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 15:07:45 [basehttp INFO] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+2018-11-04 15:15:27 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:15:27 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:15:28 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:15:28 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:15:36 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:15:36 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:17:14 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:17:14 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:17:14 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:17:14 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:17:19 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:17:19 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:17:59 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:17:59 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:18:00 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:18:00 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:18:17 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:18:17 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:18:20 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:18:20 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:28:17 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:28:17 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:31:18 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:31:18 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:33:29 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:33:29 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:33:32 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:33:32 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:33:46 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:33:46 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:35:20 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:35:20 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:35:20 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:35:20 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:36:34 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:36:34 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:36:35 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:36:35 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:38:28 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:38:28 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:38:29 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:38:29 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:39:40 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:39:40 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:39:40 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:39:40 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:40:22 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:40:22 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:40:24 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:40:24 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:46:19 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:46:19 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:46:22 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:46:22 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:48:11 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:48:11 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:48:11 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:48:11 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:51:09 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:51:09 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:51:09 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:51:09 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:52:15 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:52:15 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:52:17 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:52:17 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:52:49 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:52:49 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:52:50 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:52:50 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:53:02 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:53:02 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:53:38 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:53:38 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:54:33 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:54:33 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:55:18 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:55:18 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 15:55:47 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 15:55:47 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 16:06:22 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 16:06:22 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 16:06:24 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 16:06:24 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 16:06:30 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21821
+2018-11-04 16:06:30 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:06:30 [basehttp INFO] "GET /static/img/facio.ico HTTP/1.1" 200 1744
+2018-11-04 16:06:30 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541318790235 HTTP/1.1" 200 464
+2018-11-04 16:06:38 [log ERROR] Internal Server Error: /sqlaudits/masteruser/
+Traceback (most recent call last):
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/chenwh/project/venvjumpserver/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'master-list' not found. 'master-list' is not a valid view function or pattern name.
+2018-11-04 16:06:38 [basehttp ERROR] "GET /sqlaudits/masteruser/ HTTP/1.1" 500 194985
+2018-11-04 16:14:32 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21787
+2018-11-04 16:14:33 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:14:45 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21821
+2018-11-04 16:14:45 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:14:46 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319285865 HTTP/1.1" 200 464
+2018-11-04 16:14:47 [basehttp INFO] "GET /sqlaudits/masteruser/ HTTP/1.1" 200 21787
+2018-11-04 16:14:47 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:14:49 [basehttp INFO] "GET /sqlaudits/masternetwork/ HTTP/1.1" 200 21690
+2018-11-04 16:14:49 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:14:51 [basehttp INFO] "GET /sqlaudits/masterprivilege/ HTTP/1.1" 200 21800
+2018-11-04 16:14:51 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:04 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21821
+2018-11-04 16:19:04 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:05 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319544797 HTTP/1.1" 200 464
+2018-11-04 16:19:08 [basehttp INFO] "GET /sqlaudits/masterconfig/3/update/ HTTP/1.1" 200 13174
+2018-11-04 16:19:08 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:11 [basehttp INFO] "POST /sqlaudits/masterconfig/3/update/ HTTP/1.1" 302 0
+2018-11-04 16:19:11 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 22074
+2018-11-04 16:19:12 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:12 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319551956 HTTP/1.1" 200 464
+2018-11-04 16:19:29 [basehttp INFO] "GET /sqlaudits/masterconfig/create/ HTTP/1.1" 200 13126
+2018-11-04 16:19:29 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:38 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 21821
+2018-11-04 16:19:39 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319578598 HTTP/1.1" 200 464
+2018-11-04 16:19:46 [basehttp INFO] "GET /sqlaudits/masterconfig/3/update/ HTTP/1.1" 200 13174
+2018-11-04 16:19:46 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:19:49 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319589055 HTTP/1.1" 200 464
+2018-11-04 16:21:55 [basehttp INFO] "GET /sqlaudits/masterconfig/3/update/ HTTP/1.1" 200 13174
+2018-11-04 16:21:55 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:26:33 [basehttp INFO] "POST /sqlaudits/masterconfig/3/update/ HTTP/1.1" 302 0
+2018-11-04 16:26:34 [basehttp INFO] "GET /sqlaudits/masterconfig/ HTTP/1.1" 200 22074
+2018-11-04 16:26:34 [basehttp INFO] "GET /zh/jsi18n/ HTTP/1.1" 200 3333
+2018-11-04 16:26:34 [basehttp INFO] "GET /api/sqlaudits/v1masterconfig/?_=1541319994305 HTTP/1.1" 200 464
+2018-11-04 16:27:17 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 16:27:17 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 21:27:20 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 21:27:20 [signals_handler DEBUG]   - fresh all settings
+2018-11-04 21:27:29 [signals_handler DEBUG] Receive django ready signal
+2018-11-04 21:27:29 [signals_handler DEBUG]   - fresh all settings
