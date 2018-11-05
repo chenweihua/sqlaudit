@@ -23,6 +23,7 @@ router.register(r'masterconfig', api.LzMasterConfigViewSet, 'masterconfig')
 router.register(r'masteruser', api.LzMasterUserViewSet, 'masteruser')
 router.register(r'masternetwork', api.LzMasterUserViewSet, 'masternetwork')
 router.register(r'masterprivilege', api.LzMasterUserViewSet, 'masterprivilege')
+router.register(r'masterschema', api.LzMasterSchemaViewSet, 'masterschema')
 urlpatterns =[
 
 ]

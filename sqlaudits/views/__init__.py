@@ -14,3 +14,4 @@ from .masterconfig import *
 from .masteruser import *
 from .masternetwork import *
 from .masterprivilege import *
+from .masterschema import *

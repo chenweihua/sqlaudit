@@ -33,4 +33,7 @@ urlpatterns = [
     path('masterprivilege/', views.MasterPrivilegeListView.as_view(), name='masterprivilege-list'),
     path('masterprivilege/create/', views.MasterPrivilegeCreateView.as_view(), name='masterprivilege-create'),
     path('masterprivilege/<int:pk>/update/', views.MasterPrivilegeUpdateView.as_view(), name='masterprivilege-update'),
+    path('masterschema/', views.MasterSchemaListView.as_view(), name='masterschema-list'),
+    path('masterschema/create/', views.MasterSchemaCreateView.as_view(), name='masterschema-create'),
+    path('masterschema/<int:pk>/update/', views.MasterSchemaUpdateView.as_view(), name='masterschema-update'),
 ]
