@@ -33,6 +33,32 @@ class MasterConfig(models.Model):
         super(MasterConfig, self).save(*args, **kwargs)
 
 
+# 各个线上主库地址。
+class MasterScrema(models.Model):
+    id = models.AutoField(primary_key=True)
+    masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
+    name = models.CharField('集群名称', max_length=50, unique=True)
+    charset = models.CharField(max_length=12, choices=(('utf8','utf8'),("utf8mb4", 'utf8mb4')))
+    charset_type = models.CharField(max_length=32, blank=False, null=False)
+    create_time = models.DateTimeField('创建时间', auto_now_add=True)
+    update_time = models.DateTimeField('更新时间', auto_now=True)
+
+
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        db_table = 'lz_master_schema'
+        verbose_name = u'主库地址配置'
+        verbose_name_plural = u'主库地址配置'
+
+    def save(self, *args, **kwargs):
+        pc = Prpcrypt()  # 初始化
+        self.master_password = pc.encrypt(self.master_password)
+        super(MasterConfig, self).save(*args, **kwargs)
+
+
 class MasterUser(models.Model):
     id = models.AutoField(primary_key=True)
     masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
