@@ -13,11 +13,11 @@
 
 from django import forms
 from .utils import generate_random_password
-from .models import MasterConfig, MasterUser, MasterNetwork,MasterPrivilege
+from .models import MasterConfig, MasterUser, MasterNetwork, MasterPrivilege, MasterSchema
 from django.utils.translation import gettext_lazy as _
 
-class MasterConfigCreateUpdateForm(forms.ModelForm):
 
+class MasterConfigCreateUpdateForm(forms.ModelForm):
     master_password = forms.CharField(
         label=_('Master Password'), widget=forms.PasswordInput,
         max_length=128, strip=False
@@ -26,7 +26,7 @@ class MasterConfigCreateUpdateForm(forms.ModelForm):
     class Meta:
         model = MasterConfig
         fields = [
-            'name', 'master_host', 'master_port', 'master_user','master_password'
+            'name', 'master_host', 'master_port', 'master_user', 'master_password'
         ]
         help_texts = {
             'name': '* required',
@@ -35,18 +35,12 @@ class MasterConfigCreateUpdateForm(forms.ModelForm):
             'master_password': '* required',
         }
 
-
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
-
-
-
 class MasterNetworkCreateUpdateForm(forms.ModelForm):
-
-
     class Meta:
         model = MasterNetwork
         fields = [
@@ -58,18 +52,29 @@ class MasterNetworkCreateUpdateForm(forms.ModelForm):
 
         }
 
-
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
+class MasterSchemaCreateUpdateForm(forms.ModelForm):
+    class Meta:
+        model = MasterSchema
+        fields = [
+            'name', 'charset', 'charset_type'
+        ]
+        help_texts = {
+            'name': '* required',
+            'charset': '* required',
 
+        }
+
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop("request", None)
+        super(MasterSchemaCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
 class MasterPrivilegeCreateUpdateForm(forms.ModelForm):
-
-
     class Meta:
         model = MasterPrivilege
         fields = [
@@ -81,20 +86,16 @@ class MasterPrivilegeCreateUpdateForm(forms.ModelForm):
 
         }
 
-
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterConfigCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
-
 class MasterUserCreateUpdateForm(forms.ModelForm):
-
     password = forms.CharField(
         label=_('Master Password'), widget=forms.PasswordInput,
         max_length=128, strip=False
     )
-
 
     class Meta:
         model = MasterUser
@@ -116,7 +117,6 @@ class MasterUserCreateUpdateForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterUserCreateUpdateForm, self).__init__(*args, **kwargs)
-
 
     def save(self, commit=True):
         password = generate_random_password(32)
