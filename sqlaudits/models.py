@@ -132,7 +132,7 @@ class MasterNetwork(models.Model):
 
 class MasterUerPrivilege(models.Model):
     id = models.AutoField(primary_key=True)
-    masterprivilage = models.ForeignKey(MasterPrivilege, blank=True, null=True,
+    masterprivilege = models.ForeignKey(MasterPrivilege, blank=True, null=True,
                                   verbose_name='主库地址配置id', on_delete=models.CASCADE)
     masteruser= models.ForeignKey(MasterUser, blank=True, null=True,
                                   verbose_name='主库地址配置id', on_delete=models.CASCADE)

@@ -13,7 +13,7 @@
     </div>
 {% endblock %}
 {% block table_container %}
-<div class="uc pull-left m-r-5"><a href="{% url "sqlaudits:masteruser-create" %}" class="btn btn-sm btn-primary"> {% trans "Create Master Config" %} </a></div>
+<div class="uc pull-left m-r-5"><a href="{% url "sqlaudits:masterschema-create" %}" class="btn btn-sm btn-primary"> {% trans "Create Master Config" %} </a></div>
 <table class="table table-striped table-bordered table-hover " id="user_list_table" >
     <thead>
         <tr>
@@ -21,8 +21,8 @@
                 <input id="" type="checkbox" class="ipt_check_all">
             </th>
             <th class="text-center">{% trans 'name' %}</th>
-            <th class="text-center">{% trans 'clients_host' %}</th>
-            <th class="text-center">{% trans 'master_config' %}</th>
+            <th class="text-center">{% trans 'charset' %}</th>
+            <th class="text-center">{% trans 'charset_type' %}</th>
 
             <th class="text-center">{% trans 'Action' %}</th>
         </tr>
@@ -76,10 +76,10 @@ function initTable() {
                 }
                 $(td).html(update_btn + del_btn)
              }}],
-        ajax_url: '{% url "api-sqlaudits:masteruser-list" %}',
+        ajax_url: '{% url "api-sqlaudits:masterschema-list" %}',
         columns: [
-            {data: "id"}, {data: "name" }, {data: "clients_host" }, {data: "master_config" },
-            {data: "master_user" }, {data: "master_password" },  {data: "id" }
+            {data: "id"}, {data: "name" }, {data: "charset" }, {data: "charset_type" },
+             {data: "id" }
         ],
         op_html: $('#actions').html()
     };
@@ -148,7 +148,7 @@ $(document).ready(function(){
     if (id_list === []) {
         return false;
     }
-    var the_url = "{% url 'api-users:user-list' %}";
+    var the_url = "{% url 'api-sqlaudits:masterschema-list' %}";
     function doDeactive() {
         var body = $.each(id_list, function(index, user_object) {
             user_object['is_active'] = false;
