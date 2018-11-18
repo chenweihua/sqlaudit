@@ -33,3 +33,4 @@ celerybeat-schedule.db
 data/static
 docs/_build/
 xpack
+logs/
