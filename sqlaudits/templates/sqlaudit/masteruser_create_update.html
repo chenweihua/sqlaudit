@@ -35,7 +35,8 @@
                         <form enctype="multipart/form-data" method="post" class="form-horizontal" action="" >
                             {% csrf_token %}
                             {% bootstrap_field form.name  layout="horizontal" %}
-                            {% bootstrap_field form.network_value layout="horizontal" %}
+                            {% bootstrap_field form.masterconfig  layout="horizontal" %}
+                            {% bootstrap_field form.network layout="horizontal" %}
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
                                     <button class="btn btn-white" type="reset">{% trans 'Reset' %}</button>

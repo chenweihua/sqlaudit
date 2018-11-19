@@ -72,7 +72,7 @@ class MasterNetworkCreateView(AdminUserRequiredMixin, SuccessMessageMixin, Creat
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update({'app': _('Master Config'), 'action': _('Create masternetwork')})
+        context.update({'app': _('Master Network'), 'action': _('Create masternetwork')})
         return context
     #
     # def form_valid(self, form):
@@ -96,7 +96,6 @@ class MasterNetworkUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, Updat
     success_message = update_success_msg
 
     def get_context_data(self, **kwargs):
-        # check_rules, min_length = get_password_check_rules()
         context = {
             'app': _('MasterNetwork'),
             'action': _('Update MasterNetwork'),
@@ -107,9 +106,7 @@ class MasterNetworkUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, Updat
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
-        password = form.cleaned_data.get('password')
-        if not password:
-            return super().form_valid(form)
+
         return super().form_valid(form)
 
     def get_form_kwargs(self):

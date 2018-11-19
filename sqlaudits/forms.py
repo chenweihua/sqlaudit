@@ -13,7 +13,7 @@
 
 from django import forms
 from .utils import generate_random_password
-from .models import MasterConfig, MasterUser, MasterNetwork, MasterPrivilege, MasterSchema,\
+from .models import MasterConfig, MasterUser, MasterNetwork, MasterPrivilege, MasterSchema, \
     MasterUerPrivilege
 from django.utils.translation import gettext_lazy as _
 
@@ -45,18 +45,18 @@ class MasterNetworkCreateUpdateForm(forms.ModelForm):
     class Meta:
         model = MasterNetwork
         fields = [
-            'name', 'network_value'
+            'name', 'network_value', 'network_expression'
         ]
         help_texts = {
             'name': '* required',
             'network_value': '* required',
+            'network_expression': '* required',
 
         }
 
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterNetworkCreateUpdateForm, self).__init__(*args, **kwargs)
-
 
 
 class MasterPrivilegeCreateUpdateForm(forms.ModelForm):
@@ -74,7 +74,6 @@ class MasterPrivilegeCreateUpdateForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
         super(MasterPrivilegeCreateUpdateForm, self).__init__(*args, **kwargs)
-
 
 
 class MasterSchemaCreateUpdateForm(forms.ModelForm):
@@ -109,13 +108,11 @@ class MasterSchemaCreateUpdateForm(forms.ModelForm):
         super(MasterSchemaCreateUpdateForm, self).__init__(*args, **kwargs)
 
 
-
-class MasterUserCreateUpdateForm(forms.ModelForm):
-
+class MasterUserCreateForm(forms.ModelForm):
     class Meta:
         model = MasterUser
         fields = [
-            'masterconfig', 'name', 'network','privileges'
+            'masterconfig', 'name', 'network'
         ]
         help_texts = {
             'masterconfig': '* required',
@@ -133,10 +130,9 @@ class MasterUserCreateUpdateForm(forms.ModelForm):
             })
         }
 
-
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
-        super(MasterUserCreateUpdateForm, self).__init__(*args, **kwargs)
+        super(MasterUserCreateForm, self).__init__(*args, **kwargs)
 
     def save(self, commit=True):
         password = generate_random_password(32)
@@ -147,14 +143,42 @@ class MasterUserCreateUpdateForm(forms.ModelForm):
         return masteruser
 
 
+class MasterUserUpdateForm(forms.ModelForm):
+    class Meta:
+        model = MasterUser
+        fields = [
+            'masterconfig', 'name', 'network'
+        ]
+        help_texts = {
+            'masterconfig': '* required',
+            'name': '* required',
+            'network': '* required',
+        }
+
+        widgets = {
+            'masterconfig': forms.Select(attrs={
+                'class': 'select2', 'data-placeholder': _('Masterconfig')
+            }),
+
+            'network': forms.SelectMultiple(attrs={
+                'class': 'select2', 'data-placeholder': _('Network')
+            })
+        }
+
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop("request", None)
+        super(MasterUserCreateForm, self).__init__(*args, **kwargs)
+
+    def save(self, commit=True):
+        masteruser = super().save(commit=commit)
+        return masteruser
+
 
 class MasterUserPrivilegesForm(forms.ModelForm):
-
-
     class Meta:
         model = MasterUerPrivilege
         fields = [
-            'masterprivilege', 'masteruser', 'masterschema','tables','is_grants',
+            'masterprivilege', 'masteruser', 'masterschema', 'tables', 'is_grants',
         ]
         help_texts = {
             'masterconfig': '* required',
@@ -182,7 +206,6 @@ class MasterUserPrivilegesForm(forms.ModelForm):
             })
         }
 
-
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop("request", None)
-        super(MasterUserCreateUpdateForm, self).__init__(*args, **kwargs)
+        super(MasterUserPrivilegesForm, self).__init__(*args, **kwargs)

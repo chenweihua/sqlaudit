@@ -63,7 +63,7 @@ class MasterUser(models.Model):
     id = models.AutoField(primary_key=True)
     masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
     name = models.CharField('登录主库的用户名', max_length=18)
-    password = models.CharField('登录主库的密码', max_length=64)
+    # password = models.CharField('登录主库的密码', max_length=64)
     network = models.ManyToManyField('MasterNetwork')
     privileges = models.ManyToManyField('MasterPrivilege',through ='MasterUerPrivilege')
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
@@ -72,19 +72,24 @@ class MasterUser(models.Model):
     def __str__(self):
         return self.name+'@'+self.client_host
 
-
     @property
     def password_raw(self):
         raise AttributeError('Password raw is not a readable attribute')
 
+    #: Use this attr to set user object password, example
+    #: user = User(username='example', password_raw='password', ...)
+    #: It's equal:
+    #: user = User(username='example', ...)
+    #: user.set_password('password')
     @password_raw.setter
     def password_raw(self, password_raw_):
         self.set_password(password_raw_)
 
-
     def set_password(self, raw_password):
         self._set_password = True
         return super().set_password(raw_password)
+
+
 
     class Meta:
         db_table = 'lz_master_user'
@@ -92,6 +97,7 @@ class MasterUser(models.Model):
         verbose_name_plural = u'主库地址配置'
 
     def save(self, *args, **kwargs):
+        # password = generate_random_password(32)
         pc = Prpcrypt()  # 初始化
         self.password = pc.encrypt(self.password)
         super(MasterUser, self).save(*args, **kwargs)
@@ -115,7 +121,7 @@ class MasterPrivilege(models.Model):
 
 class MasterNetwork(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField('登录权',max_length=32)
+    name = models.CharField('',max_length=32)
     network_value = models.CharField('登录权', max_length=255)
     network_expression = models.CharField(max_length=32,null=False ,blank=False,default='localhost')
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
