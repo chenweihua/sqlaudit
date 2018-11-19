@@ -40,6 +40,7 @@ class MasterSchema(models.Model):
     name = models.CharField('集群名称', max_length=50, unique=True)
     charset = models.CharField(max_length=12, choices=(('utf8','utf8'),("utf8mb4", 'utf8mb4')))
     charset_type = models.CharField(max_length=32, blank=False, null=False)
+    num = models.IntegerField(default=1)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
 
@@ -64,6 +65,7 @@ class MasterUser(models.Model):
     masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
     name = models.CharField('登录主库的用户名', max_length=18)
     password = models.CharField('登录主库的密码', max_length=64)
+
     network = models.ManyToManyField('MasterNetwork')
     privileges = models.ManyToManyField('MasterPrivilege',through ='MasterUerPrivilege')
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
