@@ -22,6 +22,7 @@
             </th>
             <th class="text-center">{% trans 'name' %}</th>
             <th class="text-center">{% trans 'network_value' %}</th>
+            <th class="text-center">{% trans 'network_expression' %}</th>
             <th class="text-center">{% trans 'Action' %}</th>
         </tr>
     </thead>
@@ -59,7 +60,7 @@ function initTable() {
              }},
 
 
-            {targets: 3, createdCell: function (td, cellData, rowData) {
+            {targets: 4, createdCell: function (td, cellData, rowData) {
                 var update_btn = '<a href="{% url "sqlaudits:masternetwork-update" pk=DEFAULT_PK %}" class="btn btn-xs btn-info">{% trans "Update" %}</a>'.replace('999999999', cellData);
 
                 var del_btn = "";
@@ -76,7 +77,7 @@ function initTable() {
              }}],
         ajax_url: '{% url "api-sqlaudits:masternetwork-list" %}',
         columns: [
-            {data: "id"}, {data: "name" }, {data: "network_value" },
+            {data: "id"}, {data: "name" }, {data: "network_value" },{data: "network_expression"},
              {data: "id" }
         ],
         op_html: $('#actions').html()

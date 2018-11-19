@@ -72,7 +72,7 @@ class MasterPrivilegeCreateView(AdminUserRequiredMixin, SuccessMessageMixin, Cre
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update({'app': _('Master Config'), 'action': _('Create masterprivilege')})
+        context.update({'app': _('Master Privilege'), 'action': _('Create masterprivilege')})
         return context
     #
     # def form_valid(self, form):
@@ -106,11 +106,7 @@ class MasterPrivilegeUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, Upd
         kwargs.update(context)
         return super().get_context_data(**kwargs)
 
-    def form_valid(self, form):
-        password = form.cleaned_data.get('password')
-        if not password:
-            return super().form_valid(form)
-        return super().form_valid(form)
+
 
     def get_form_kwargs(self):
         kwargs = super(MasterPrivilegeUpdateView, self).get_form_kwargs()

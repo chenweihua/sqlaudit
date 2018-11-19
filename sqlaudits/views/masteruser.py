@@ -56,7 +56,7 @@ class MasterUserListView(AdminUserRequiredMixin, TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context.update({
-            'app': 'Master Config',
+            'app': 'MasterUser',
             'action': 'MasterUser list',
         })
         return context
@@ -64,22 +64,21 @@ class MasterUserListView(AdminUserRequiredMixin, TemplateView):
 
 class MasterUserCreateView(AdminUserRequiredMixin, SuccessMessageMixin, CreateView):
     model = MasterUser
-    form_class = forms.MasterUserCreateUpdateForm
+    form_class = forms.MasterUserCreateForm
     template_name = 'sqlaudit/masteruser_create_update.html'
     success_url = reverse_lazy('sqlaudits:masteruser-list')
     success_message = create_success_msg
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update({'app': _('Master Config'),
-                        'action': _('Create masterconfig'),
-                        'masterconfigs': MasterConfig.objects.all(),
+        context.update({'app': _('MasterUser'),
+                        'action': _('Create masterconfig')
                         })
         return context
 
     def form_valid(self, form):
-        masterconfig = form.save(commit=False)
-        masterconfig.save()
+        masteruser = form.save(commit=False)
+        masteruser.save()
         return super().form_valid(form)
 
     def get_form_kwargs(self):
@@ -91,7 +90,7 @@ class MasterUserCreateView(AdminUserRequiredMixin, SuccessMessageMixin, CreateVi
 
 class MasterUserUpdateView(AdminUserRequiredMixin, SuccessMessageMixin, UpdateView):
     model = MasterUser
-    form_class = forms.MasterUserCreateUpdateForm
+    form_class = forms.MasterUserUpdateForm
     template_name = 'sqlaudit/masteruser_create_update.html'
     context_object_name = 'masteruser_object'
     success_url = reverse_lazy('sqlaudits:masteruser-list')

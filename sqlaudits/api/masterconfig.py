@@ -24,7 +24,7 @@ class LzMasterConfigViewSet(BulkModelViewSet):
     """
     queryset = MasterConfig.objects.all()
     serializer_class = LzMasterConfigSerializer
-    filter_fields = ('name', 'master_host', 'master_user')
+    filter_fields = ('name',)
 
 
 class LzMasterUserViewSet(BulkModelViewSet):
@@ -33,7 +33,7 @@ class LzMasterUserViewSet(BulkModelViewSet):
     """
     queryset = MasterUser.objects.all()
     serializer_class = LzMasterUserSerializer
-    filter_fields = ('username', 'master_host', 'master_user')
+    filter_fields = ('name',)
 
 
 class LzMasterNetworkViewSet(BulkModelViewSet):
@@ -42,7 +42,7 @@ class LzMasterNetworkViewSet(BulkModelViewSet):
     """
     queryset = MasterNetwork.objects.all()
     serializer_class = LzMasterNetworkSerializer
-    filter_fields = ('username', 'master_host', 'master_user')
+    filter_fields = ('name',)
 
 
 class LzMasterPrivilegeViewSet(BulkModelViewSet):
@@ -51,7 +51,7 @@ class LzMasterPrivilegeViewSet(BulkModelViewSet):
     """
     queryset = MasterPrivilege.objects.all()
     serializer_class = LzMasterPrivilegeSerializer
-    filter_fields = ('username', 'master_host', 'master_user')
+    filter_fields = ('name',)
 
 
 class LzMasterSchemaViewSet(BulkModelViewSet):
