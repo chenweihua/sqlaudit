@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
-    # 'ops.apps.OpsConfig',
+    'ops.apps.OpsConfig',
     'common.apps.CommonConfig',
     'sqlaudits.apps.SqlauditsConfig',
     'rest_framework',
@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     'bootstrap3',
     'captcha',
     'django_celery_beat',
+
 ]
 
 MIDDLEWARE = [
