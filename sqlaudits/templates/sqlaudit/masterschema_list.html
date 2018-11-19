@@ -13,7 +13,7 @@
     </div>
 {% endblock %}
 {% block table_container %}
-<div class="uc pull-left m-r-5"><a href="{% url "sqlaudits:masternetwork-create" %}" class="btn btn-sm btn-primary"> {% trans "Create Master Config" %} </a></div>
+<div class="uc pull-left m-r-5"><a href="{% url "sqlaudits:masterschema-create" %}" class="btn btn-sm btn-primary"> {% trans "Create Master Config" %} </a></div>
 <table class="table table-striped table-bordered table-hover " id="user_list_table" >
     <thead>
         <tr>
@@ -21,7 +21,9 @@
                 <input id="" type="checkbox" class="ipt_check_all">
             </th>
             <th class="text-center">{% trans 'name' %}</th>
-            <th class="text-center">{% trans 'network_value' %}</th>
+            <th class="text-center">{% trans 'charset' %}</th>
+            <th class="text-center">{% trans 'charset_type' %}</th>
+
             <th class="text-center">{% trans 'Action' %}</th>
         </tr>
     </thead>
@@ -54,13 +56,13 @@ function initTable() {
         ele: $('#user_list_table'),
         columnDefs: [
             {targets: 1, createdCell: function (td, cellData, rowData) {
-                var detail_btn = '<a href="{% url "sqlaudits:masternetwork-update" pk=DEFAULT_PK %}">' + cellData + '</a>';
+                var detail_btn = '<a href="{% url "sqlaudits:masteruser-update" pk=DEFAULT_PK %}">' + cellData + '</a>';
                 $(td).html(detail_btn.replace("{{ DEFAULT_PK }}", rowData.id));
              }},
 
 
-            {targets: 3, createdCell: function (td, cellData, rowData) {
-                var update_btn = '<a href="{% url "sqlaudits:masternetwork-update" pk=DEFAULT_PK %}" class="btn btn-xs btn-info">{% trans "Update" %}</a>'.replace('999999999', cellData);
+            {targets: 6, createdCell: function (td, cellData, rowData) {
+                var update_btn = '<a href="{% url "sqlaudits:masteruser-update" pk=DEFAULT_PK %}" class="btn btn-xs btn-info">{% trans "Update" %}</a>'.replace('999999999', cellData);
 
                 var del_btn = "";
                 if (rowData.id === 1 || rowData.username === "admin" || rowData.username === "{{ request.user.username }}") {
@@ -74,9 +76,9 @@ function initTable() {
                 }
                 $(td).html(update_btn + del_btn)
              }}],
-        ajax_url: '{% url "api-sqlaudits:masternetwork-list" %}',
+        ajax_url: '{% url "api-sqlaudits:masterschema-list" %}',
         columns: [
-            {data: "id"}, {data: "name" }, {data: "network_value" },
+            {data: "id"}, {data: "name" }, {data: "charset" }, {data: "charset_type" },
              {data: "id" }
         ],
         op_html: $('#actions').html()
@@ -146,7 +148,7 @@ $(document).ready(function(){
     if (id_list === []) {
         return false;
     }
-    var the_url = "{% url 'api-sqlaudits:masternetwork-list' %}";
+    var the_url = "{% url 'api-sqlaudits:masterschema-list' %}";
     function doDeactive() {
         var body = $.each(id_list, function(index, user_object) {
             user_object['is_active'] = false;

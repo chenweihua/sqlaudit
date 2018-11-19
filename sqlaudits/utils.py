@@ -13,6 +13,9 @@
 
 import random
 import string
+from collections import namedtuple
+from django.conf import  settings
+from .con_database import SQLgo
 
 '''
 $#!^等特殊字符，在shell下的mysql命令行里面不识别
@@ -54,4 +57,28 @@ def generate_random_password(password_length=32):
 def test_password_generate():
     random_password = generate_random_password(password_length=32)
     print(random_password)
+
+
+def conf_path() -> object:
+    '''
+    读取配置文件属性
+    '''
+    conf_set = namedtuple("name", ["db", "address", "port", "username", "password", "ipaddress"])
+
+    return conf_set(settings.CONFIG.DB_NAME, settings.CONFIG.DB_HOST,
+                    settings.CONFIG.DB_PORT ,settings.CONFIG.DB_USER,
+                    settings.CONFIG.DB_PASSWORD, settings.CONFIG.DB_HOST)
+
+def init_conf():
+    with SQLgo(
+            ip = settings.CONFIG.DB_HOST,
+            user=settings.CONFIG.DB_USER,
+            password=settings.CONFIG.DB_PASSWORD,
+            db=settings.CONFIG.DB_NAME,
+            port=settings.CONFIG.DB_PORT) as f:
+        res = f.query_info("select * from core_globalpermissions where authorization = 'global'")
+
+    return res[0]
+
+
 

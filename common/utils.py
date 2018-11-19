@@ -30,11 +30,13 @@ from django.utils import timezone
 
 UUID_PATTERN = re.compile(r'[0-9a-zA-Z\-]{36}')
 
+
 # from django.http import HttpResponse
 # from config.views import get_dir
 # import json
 #
 #
+
 # def token_verify():
 #     def decorator(view_func):
 #         def _wrapped_view(request, *args, **kwargs):

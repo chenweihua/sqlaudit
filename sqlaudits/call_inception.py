@@ -1,4 +1,4 @@
-from libs import util
+
 import pymysql
 import sqlparse
 import ast

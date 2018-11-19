@@ -34,7 +34,7 @@ class MasterConfig(models.Model):
 
 
 # 各个线上主库地址。
-class MasterScrema(models.Model):
+class MasterSchema(models.Model):
     id = models.AutoField(primary_key=True)
     masterconfig= models.ForeignKey('MasterConfig', on_delete=models.CASCADE)
     name = models.CharField('集群名称', max_length=50, unique=True)
@@ -132,11 +132,12 @@ class MasterNetwork(models.Model):
 
 class MasterUerPrivilege(models.Model):
     id = models.AutoField(primary_key=True)
-    masterprivilage = models.ForeignKey(MasterPrivilege, blank=True, null=True,
+    masterprivilege = models.ForeignKey(MasterPrivilege, blank=True, null=True,
                                   verbose_name='主库地址配置id', on_delete=models.CASCADE)
     masteruser= models.ForeignKey(MasterUser, blank=True, null=True,
                                   verbose_name='主库地址配置id', on_delete=models.CASCADE)
-    schemas = models.CharField("主库",max_length=32)
+    masterschema = models.ForeignKey(MasterSchema, blank=True, null=True,
+                                  verbose_name='主库地址配置id', on_delete=models.CASCADE)
     tables = models.TextField("主库")
     is_grants = models.IntegerField('授权', default=0)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
