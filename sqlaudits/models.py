@@ -74,21 +74,25 @@ class MasterUser(models.Model):
         return self.name+'@'+self.client_host
 
     @property
-    def password_raw(self):
-        raise AttributeError('Password raw is not a readable attribute')
+    def password(self):
+        return self._password
+
 
     #: Use this attr to set user object password, example
     #: user = User(username='example', password_raw='password', ...)
     #: It's equal:
     #: user = User(username='example', ...)
     #: user.set_password('password')
-    @password_raw.setter
-    def password_raw(self, password_raw_):
-        self.set_password(password_raw_)
+    @password.setter
+    def password_raw(self):
+        password_raw = generate_random_password(32)
+        password_raw = Prpcrypt.encrypt(password_raw)
+        self._password = password_raw
 
-    def set_password(self, raw_password):
-        self._set_password = True
-        return super().set_password(raw_password)
+    # def set_password(self, raw_password):
+    #     pc =
+    #     self._set_password = True
+    #     return super().set_password(raw_password)
 
 
 
@@ -99,8 +103,8 @@ class MasterUser(models.Model):
 
     def save(self, *args, **kwargs):
         # password = generate_random_password(32)
-        pc = Prpcrypt()  # 初始化
-        self.password = pc.encrypt(self.password)
+        # pc = Prpcrypt()  # 初始化
+        # self.password = pc.encrypt(self.password)
         super(MasterUser, self).save(*args, **kwargs)
 
 
@@ -180,6 +184,7 @@ class MasterUserSend(models.Model):
 # 各个线上从库地址
 class SlaveConfig(models.Model):
     id = models.AutoField(primary_key=True)
+    masterconfig = models.ForeignKey(MasterConfig, on_delete=models.CASCADE)
     cluster_name = models.CharField('集群名称', max_length=50, unique=True)
     slave_host = models.CharField('从库地址', max_length=200)
     slave_port = models.IntegerField('从库端口', default=3306)

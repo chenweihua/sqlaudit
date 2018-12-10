@@ -134,13 +134,13 @@ class MasterUserCreateForm(forms.ModelForm):
         self.request = kwargs.pop("request", None)
         super(MasterUserCreateForm, self).__init__(*args, **kwargs)
 
-    def save(self, commit=True):
-        password = generate_random_password(32)
-        masteruser = super().save(commit=commit)
-        if password:
-            masteruser.set_password(password)
-            masteruser.save()
-        return masteruser
+    # def save(self, commit=True):
+    #     password = generate_random_password(32)
+    #     masteruser = super().save(commit=commit)
+    #     if password:
+    #         masteruser.set_password(password)
+    #         masteruser.save()
+    #     return masteruser
 
 
 class MasterUserUpdateForm(forms.ModelForm):
