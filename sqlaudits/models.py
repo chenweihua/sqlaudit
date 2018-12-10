@@ -242,7 +242,7 @@ class Workflow(models.Model):
 # 工作流审核主表
 class WorkflowAudit(models.Model):
     id = models.AutoField(primary_key=True)
-    # Workflow_id = models.BigIntegerField('关联业务id')
+
     workflow = models.ForeignKey(Workflow, blank=True, null=True,
                                   verbose_name='主库地址配置id', on_delete=models.CASCADE)
     workflow_type = models.IntegerField('申请类型',
